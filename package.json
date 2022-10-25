@@ -1,0 +1,27 @@
+{
+  "name": "ping-filter",
+  "version": "1.0.0",
+  "description": "Simple dumb script to filter out low ping packets so that only response times over a given time will print",
+  "main": "scanping.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scirelli/node-ping-filter.git"
+  },
+  "keywords": [
+    "ping",
+    "filter"
+  ],
+  "author": "Steve Cirelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scirelli/node-ping-filter/issues"
+  },
+  "homepage": "https://github.com/scirelli/node-ping-filter#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "yargs": "^17.6.0"
+  }
+}
